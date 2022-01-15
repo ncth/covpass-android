@@ -171,7 +171,7 @@
 
   <TextView
     android:id="@+id/result_info_footer"
-    style="@style/DefaultText.OnBackground70"
+    style="@style/Header.OnBackground.Small"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:paddingHorizontal="@dimen/grid_three"

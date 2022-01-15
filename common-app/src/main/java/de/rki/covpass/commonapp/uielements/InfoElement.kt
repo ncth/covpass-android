@@ -37,6 +37,7 @@ public class InfoElement @JvmOverloads constructor(
         binding.infoTitle.text = newValue
     }
 
+
     public var subtitle: String? by Delegates.observable(null) { _, _, newValue ->
         binding.infoSubtitle.text = newValue
         binding.infoSubtitle.isGone = newValue.isNullOrEmpty()
@@ -193,6 +194,7 @@ public fun InfoElement.showInfo(
     icon = iconRes?.let { ContextCompat.getDrawable(context, it) }
     elementColor = ContextCompat.getDrawable(context, R.drawable.info_background)
     this.descriptionLink = descriptionLink
+
     if (subtitleStyle != null) {
         this.subtitleStyle = subtitleStyle
     }

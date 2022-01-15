@@ -138,7 +138,7 @@
 
         <TextView
           android:id="@+id/main_availability_header_textview"
-          style="@style/Header.OnBackground.Standard"
+          style="@style/Header.OnInfo"
           android:layout_width="0dp"
           android:layout_height="wrap_content"
           android:layout_marginStart="@dimen/grid_two_half"
@@ -151,7 +151,7 @@
 
         <TextView
           android:id="@+id/main_availability_info_textview"
-          style="@style/DefaultText.OnBackground"
+          style="@style/DefaultText.OnInfo"
           android:layout_width="0dp"
           android:layout_height="wrap_content"
           android:layout_marginHorizontal="@dimen/grid_two_half"
@@ -178,7 +178,7 @@
 
         <TextView
           android:id="@+id/main_availability_status_textview"
-          style="@style/DefaultText.OnBackground"
+          style="@style/DefaultText.OnInfo"
           android:layout_width="0dp"
           android:layout_height="wrap_content"
           android:layout_marginTop="@dimen/grid_two"
@@ -192,7 +192,7 @@
 
         <TextView
           android:id="@+id/main_availability_last_update_textview"
-          style="@style/DefaultText.OnBackground70"
+          style="@style/DefaultText.OnInfo"
           android:layout_width="0dp"
           android:layout_height="wrap_content"
           android:layout_marginHorizontal="@dimen/grid_two_half"
@@ -205,7 +205,7 @@
 
         <TextView
           android:id="@+id/main_rules_availability_last_update_textview"
-          style="@style/DefaultText.OnBackground70"
+          style="@style/DefaultText.OnInfo"
           android:layout_width="0dp"
           android:layout_height="wrap_content"
           android:layout_marginHorizontal="@dimen/grid_two_half"

@@ -81,7 +81,7 @@ public class AppRulesUpdateFragment : BaseFragment() {
                 title = getString(R.string.app_information_message_update_note),
                 subtitle = "$certText\n$ruleText",
                 subtitleContentDescription = "$certTextAccessibility.\n$ruleTextAccessibility",
-                subtitleStyle = R.style.DefaultText_OnBackground70,
+                subtitleStyle = R.style.DefaultText_OnInfo,
                 subtitleTopMarginDimenRes = R.dimen.grid_one,
                 iconRes = R.drawable.info_icon_update_app,
             )

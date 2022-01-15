@@ -52,7 +52,8 @@
         android:layout_marginTop="@dimen/grid_three"
         android:focusable="true"
         tools:description="@tools:sample/lorem[10]"
-        tools:title="@tools:sample/lorem[3]" />
+        tools:title="@tools:sample/lorem[3]"
+        />
 
       <com.google.android.material.button.MaterialButton
         android:id="@+id/update_button"

@@ -4,7 +4,7 @@
 <!-- Language: de -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="UnusedResources">
 	<!-- SECTION: app -->
-	<string name="validator_app_name">CovPass Check</string>
+	<string name="validator_app_name">CovPass Kek</string>
 
 	<!-- SECTION: onboarding -->
 	<string name="start_onboarding_title">Willkommen in der CovPassCheck-App</string>
@@ -75,8 +75,11 @@
 	<string name="validation_check_popup_valid_vaccination_recovery_title">Zertifikat gültig*</string>
 	<string name="validation_check_popup_valid_vaccination_recovery_message">Gleichen Sie jetzt folgende Daten mit einem Ausweisdokument der geprüften Person ab.</string>
 	<string name="validation_check_popup_valid_vaccination_date_of_birth">Geboren am %s</string>
-	<string name="validation_check_popup_valid_vaccination_recovery_note">* Genesenen- oder Impfzertifikat liegt vor.</string>
-	<string name="technical_validation_check_popup_unsuccessful_certificate_title">Zertifikat nicht gültig</string>
+  <string name="validation_check_popup_valid_vaccination_date">vor %d Monaten</string>
+  <string name="validation_check_popup_valid_recovery_note">* Genesenenzertifikat liegt vor.</string>
+  <string name="validation_check_popup_valid_vaccination_booster">* Impfzertifikat liegt vor. Die Person besitzt eine gültige Boosterimpfung.</string>
+  <string name="validation_check_popup_valid_vaccination_no_booster">* Impfzertifikat liegt vor. Die Person besitzt keine gültige Boosterimpfung.</string>
+  <string name="technical_validation_check_popup_unsuccessful_certificate_title">Zertifikat nicht gültig</string>
 	<string name="technical_validation_check_popup_unsuccessful_certificate_subline">Das geprüfte Zertifikat ist aus einem der folgenden Gründe nicht gültig:</string>
 	<string name="technical_validation_check_popup_unsuccessful_certificate_signature_subheading">Ungültige Signatur</string>
 	<string name="technical_validation_check_popup_unsuccessful_certificate_signature_subline">Das Zertifikat wurde nicht von einer autorisierten Stelle ausgestellt oder gehört nicht zu einem Digitalen COVID-Zertifikat der EU.</string>

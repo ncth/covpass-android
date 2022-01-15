@@ -54,6 +54,7 @@ internal class CovPassCheckQRScannerFragment :
                 formatDate(certificate.birthDateFormatted),
                 vaccinationDatePeriod?.months,
                 certificate.vaccination?.isBooster ?: false,
+                certificate.vaccination?.hasFullProtection?: false,
             )
         )
     }
