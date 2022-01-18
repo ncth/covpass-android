@@ -13,7 +13,7 @@
   android:orientation="vertical"
   tools:ignore="Overdraw">
 
-  <de.rki.covpass.commonapp.uielements.CenteredTitleToolbar
+  <de.ncth.covid.commonapp.uielements.CenteredTitleToolbar
     android:id="@+id/information_toolbar"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"

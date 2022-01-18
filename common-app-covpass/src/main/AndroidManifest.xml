@@ -5,10 +5,10 @@
   -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="de.rki.covpass.app">
+  package="de.ncth.covid.app">
 
   <application
-    android:name="de.rki.covpass.app.App"
+    android:name="de.ncth.covid.app.App"
     android:icon="@mipmap/ic_launcher"
     android:label="@string/cert_app_name"
     android:roundIcon="@mipmap/ic_launcher_round">
@@ -22,7 +22,7 @@
         android:resource="@xml/provider_paths" />
     </provider>
     <activity
-      android:name="de.rki.covpass.app.main.MainActivity"
+      android:name="de.ncth.covid.app.main.MainActivity"
       android:screenOrientation="portrait"
       android:theme="@style/CovPassAppTheme"
       android:exported="true">
@@ -31,7 +31,7 @@
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <activity android:name=".detail.DetailExportPdfSaveOptionActivity"
+    <activity android:name="de.ncth.covid.app.detail.DetailExportPdfSaveOptionActivity"
       android:exported="false"
       android:icon="@drawable/save_pdf"
       android:label="@string/certificate_share_pdf_shareitem_android"

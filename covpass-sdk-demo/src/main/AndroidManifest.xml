@@ -4,4 +4,4 @@
   ~ (C) Copyright IBM Corp. 2021
   -->
 
-<manifest package="de.rki.covpass.sdk.demo" />
+<manifest package="de.ncth.covid.sdk.demo" />

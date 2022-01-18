@@ -9,7 +9,7 @@ import android.text.Spanned
 import androidx.annotation.StringRes
 import androidx.core.text.HtmlCompat
 import com.ensody.reactivestate.DependencyAccessor
-import de.rki.covpass.logging.Lumber
+import de.ncth.covid.logging.Lumber
 
 /**
  * A regular expression which is used to replace every match of the following format:

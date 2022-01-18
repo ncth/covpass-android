@@ -13,7 +13,7 @@
   android:orientation="vertical"
   tools:ignore="Overdraw">
 
-  <de.rki.covpass.commonapp.uielements.CenteredTitleToolbar
+  <de.ncth.covid.commonapp.uielements.CenteredTitleToolbar
     android:id="@+id/dgc_detail_toolbar"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -58,7 +58,7 @@
         android:visibility="gone"
         tools:visibility="visible" />
 
-      <de.rki.covpass.commonapp.uielements.InfoElement
+      <de.ncth.covid.commonapp.uielements.InfoElement
         android:id="@+id/dgc_detail_expiration_info_element"
         style="@style/InfoElement.Info"
         android:layout_width="match_parent"

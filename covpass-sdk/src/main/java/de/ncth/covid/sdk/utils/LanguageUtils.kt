@@ -1,0 +1,13 @@
+package de.ncth.covid.sdk.utils
+
+import java.util.*
+
+public fun getDescriptionLanguage(): String = when (Locale.getDefault().language) {
+    Locale.GERMAN.language -> DescriptionLanguage.GERMAN.languageCode
+    else -> DescriptionLanguage.ENGLISH.languageCode
+}
+
+public enum class DescriptionLanguage(public val languageCode: String) {
+    GERMAN("de"),
+    ENGLISH("en")
+}

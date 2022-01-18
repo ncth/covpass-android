@@ -17,7 +17,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.fragment.app.FragmentManager
 import com.ensody.reactivestate.DependencyAccessor
-import de.rki.covpass.logging.Lumber
+import de.ncth.covid.logging.Lumber
 import kotlin.reflect.KClass
 
 /**

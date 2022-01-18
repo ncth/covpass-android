@@ -11,7 +11,7 @@
   android:background="@color/backgroundPrimary"
   android:orientation="vertical">
 
-  <de.rki.covpass.commonapp.uielements.CenteredTitleToolbar
+  <de.ncth.covid.commonapp.uielements.CenteredTitleToolbar
     android:id="@+id/open_source_license_toolbar"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"

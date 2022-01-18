@@ -57,7 +57,7 @@
 
     <View style="@style/Divider" />
 
-    <de.rki.covpass.commonapp.uielements.InfoElement
+    <de.ncth.covid.commonapp.uielements.InfoElement
       android:id="@+id/onboarding_terms_of_use"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"

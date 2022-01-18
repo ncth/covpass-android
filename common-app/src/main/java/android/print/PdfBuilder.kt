@@ -6,7 +6,7 @@
 package android.print
 
 import android.os.CancellationSignal
-import de.rki.covpass.commonapp.utils.toParcelFileDescriptor
+import de.ncth.covid.commonapp.utils.toParcelFileDescriptor
 import java.io.File
 import kotlin.coroutines.resume
 import kotlin.coroutines.resumeWithException

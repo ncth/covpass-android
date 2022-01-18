@@ -4,4 +4,4 @@
   ~ (C) Copyright IBM Corp. 2021
   -->
 
-<manifest package="de.rki.covpass.checkapp.prod" />
+<manifest package="de.ncth.covid.certificateValidator.prod" />

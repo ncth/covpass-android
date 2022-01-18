@@ -39,6 +39,10 @@
 	<string name="dialog_start_screen_button_update">Update</string>
 	<string name="accessibility_update_info_announce">The view \"New features\" has been opened</string>
 
+  <!-- SECTION: custom app info -->
+  <string name="validation_custom_app_title">Important: This is not the official CovpassCheck app!</string>
+  <string name="validation_custom_app_info">This app was not published by any health authorities and is not endorsed by any health authorities. The code is based on the code of the official CovpassCheck app by the RKI. However, the code was modified by me (<a href="https://github.com/ncth">@ncth on Github</a>) to make checking 2g+ rules easier. To archive this, I changed the code so more information on the scanned certificate is displayed. The added information includes: weather the scanned certificate is a vaccine or recovery certificate, how much time has passed since the infection/ vaccination and weather the vaccination was a booster vaccination. In addition to these functional changes, I changed the theme of the app to make it obvious that this is not the official CovpassCheck app. If you were looking for the official CovpassCheck app, look <a href="https://digitaler-impfnachweis-app.de/">here</a>. If you want to see the source code of this app, look <a href="https://github.com/ncth/covpass-android/tree/add-date-booster">here</a>. Some of the modifications to the original source code were also copied from <a href="https://github.com/sweetpotatospinach/">@sweetpotatospinach</a>, who had already made some of the changes I wanted to make in his <a href="https://github.com/sweetpotatospinach/covpass-android/tree/add-date-booster">fork</a> of the original app. Disclaimer: This app comes without any warranty or conditions. I am not responsible for any trouble you might get in by using this app.</string>
+
 	<!-- SECTION: start screen -->
 	<string name="accessibility_validation_start_screen_label_information">More information</string>
 	<string name="validation_start_screen_title">Overview</string>

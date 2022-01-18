@@ -159,7 +159,7 @@
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintStart_toStartOf="parent">
 
-    <de.rki.covpass.commonapp.uielements.RoundImageButton
+    <de.ncth.covid.commonapp.uielements.RoundImageButton
       android:id="@+id/main_add_button"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"

@@ -5,7 +5,7 @@
 
 package com.ibm.health.common.securityprovider
 
-import de.rki.covpass.logging.Lumber
+import de.ncth.covid.logging.Lumber
 import org.bouncycastle.jce.provider.BouncyCastleProvider
 import org.conscrypt.Conscrypt
 import java.security.Security

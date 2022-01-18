@@ -28,7 +28,7 @@
     android:layout_alignParentBottom="true"
     android:background="@color/backgroundPrimary">
 
-    <de.rki.covpass.commonapp.uielements.RoundImageButton
+    <de.ncth.covid.commonapp.uielements.RoundImageButton
       android:id="@+id/scanner_close_button"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"

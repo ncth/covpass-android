@@ -18,7 +18,7 @@
     android:contentDescription="@string/accessibility_certificate_add_popup_image"
     android:src="@drawable/add_certificate_illustration" />
 
-  <de.rki.covpass.commonapp.uielements.InfoElement
+  <de.ncth.covid.commonapp.uielements.InfoElement
     android:id="@+id/warning_element"
     style="@style/InfoElement.Warning"
     android:layout_width="match_parent"

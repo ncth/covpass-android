@@ -13,7 +13,7 @@
   android:orientation="vertical"
   tools:ignore="Overdraw">
 
-  <de.rki.covpass.commonapp.uielements.CenteredTitleToolbar
+  <de.ncth.covid.commonapp.uielements.CenteredTitleToolbar
     android:id="@+id/information_toolbar"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -44,7 +44,7 @@
         android:layout_marginTop="@dimen/grid_two"
         tools:text="@tools:sample/lorem[7]" />
 
-      <de.rki.covpass.commonapp.uielements.InfoElement
+      <de.ncth.covid.commonapp.uielements.InfoElement
         android:id="@+id/update_info_element"
         style="@style/InfoElement.Info"
         android:layout_width="match_parent"

@@ -107,7 +107,7 @@
 
     </com.google.android.material.card.MaterialCardView>
 
-    <de.rki.covpass.commonapp.uielements.InfoElement
+    <de.ncth.covid.commonapp.uielements.InfoElement
       android:id="@+id/main_clock_out_of_sync"
       style="@style/InfoElement.Warning"
       android:layout_width="match_parent"

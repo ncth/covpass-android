@@ -39,7 +39,12 @@
 	<string name="dialog_start_screen_button_update">Aktualisieren</string>
 	<string name="accessibility_update_info_announce">Die Ansicht \"Neue Funktionen\" wurde geöffnet</string>
 
-	<!-- SECTION: start screen -->
+  <!-- SECTION: custom app info -->
+  <string name="validation_custom_app_title">Wichtig: Dies ist nicht die offizielle CovpassCheck app!</string>
+  <string name="validation_custom_app_info">Diese App wird von keiner Gesundheitsbehörder herausgegeben oder unterstützt. Die App basiert auf dem Code der offiziellen CovpassCheck app des RKI. Allerdings wurde der Code von mir (<a href="https://github.com/ncth">@ncth on Github</a>) modifiziert, um das Kontrollieren der 2g+ Regeln zu vereinfachen. Um diese Vereinfachung der 2g+ Kontrollen zu erzielen, habe ich die den Code modifiziert, sodass die App die folgenden Informationen zusätzlich anzeigt: ob das gescannte Zertifikat ein Geimpften- oder Genesenenzertifikat ist, wie viel Zeit seit der Impfung/ Infektion vergangen ist und ob das Impfzertifikat zu einer Boosterimpfung gehört. Zudem habe ich das Design der App verändert, damit klar wird, dass diese App nicht die offizielle CovpassCheck App ist. Wenn sie eigentlich die offizielle CovpassCheck App suchen, finden sie diese<a href="https://digitaler-impfnachweis-app.de/">hier</a>. Für den Quellcode dieser App, klicken sie <a href="https://github.com/ncth/covpass-android/tree/add-date-booster">hier</a>. Einige der Änderungen an dem Quellcode wurden auch von <a href="https://github.com/sweetpotatospinach/">@sweetpotatospinach</a> übernommen, der einige Änderungen, die ich vornehmen wollte, schon in seinem <a href="https://github.com/sweetpotatospinach/covpass-android/tree/add-date-booster">fork</a> von der original App vorgenommen hatte. Disclaimer: Ich übernehme keinerlei Haftung oder Garantie für diese App. Jeglich Probleme, die bei der Nutzung dieser App entstehen können, sind nicht in meiner Verantwortung.</string>
+
+
+  <!-- SECTION: start screen -->
 	<string name="accessibility_validation_start_screen_label_information">Mehr Informationen</string>
 	<string name="validation_start_screen_title">Übersicht</string>
 	<string name="validation_start_screen_scan_title">Zertifikat prüfen</string>

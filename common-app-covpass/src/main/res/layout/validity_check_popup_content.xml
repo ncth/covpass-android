@@ -20,7 +20,7 @@
     android:text="@string/certificate_check_validity_message"
     tools:ignore="HardcodedText" />
 
-  <de.rki.covpass.commonapp.uielements.InfoElement
+  <de.ncth.covid.commonapp.uielements.InfoElement
     android:id="@+id/validity_check_travel_rules_not_up_to_date"
     style="@style/InfoElement.Warning"
     android:layout_width="match_parent"
