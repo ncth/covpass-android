@@ -4,10 +4,10 @@
 <!-- Language: en -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="UnusedResources">
 	<!-- SECTION: app -->
-	<string name="validator_app_name">CovPass Check</string>
+	<string name="validator_app_name">Covid Certificate Validator</string>
 
 	<!-- SECTION: onboarding -->
-	<string name="start_onboarding_title">Welcome to the CovPassCheck app</string>
+	<string name="start_onboarding_title">Welcome to the CovidCertificateValidator app</string>
 	<string name="start_onboarding_message">Find out in just a few seconds if the person you are checking has a valid EU Covid-19 certificate.</string>
 	<string name="start_onboarding_secure_title">Minimal data, maximum security</string>
 	<string name="start_onboarding_secure_message">Data is read using just the QR code. No data is stored. You only see the information that is necessary.</string>
@@ -15,10 +15,10 @@
 	<string name="next_onboarding_page_button_title">Next</string>
 	<string name="accessibility_onboarding_pages_label_back">Back</string>
 	<string name="accessibility_page_indicator">Page %1$d of %2$d</string>
-	<string name="validation_first_onboarding_page_title">Step one: scan the QR code with the CovPassCheck app</string>
-	<string name="validation_first_onboarding_page_message">Use the CovPassCheck app to scan the QR code on an EU Digital COVID Certificate. The QR codes on the paper version contain the same information as the QR codes in the electronic version in the CovPass app and other apps in which EU Digital COVID Certificates are saved. Both certificate versions are therefore equivalent to each other.</string>
+	<string name="validation_first_onboarding_page_title">Step one: scan the QR code with the CovidCertificateValidator app</string>
+	<string name="validation_first_onboarding_page_message">Use the CovidCertificateValidator app to scan the QR code on an EU Digital COVID Certificate. The QR codes on the paper version contain the same information as the QR codes in the electronic version in the CovPass app and other apps in which EU Digital COVID Certificates are saved. Both certificate versions are therefore equivalent to each other.</string>
 	<string name="validation_second_onboarding_page_title">Step two: check the person’s identity against an ID document</string>
-	<string name="validation_second_onboarding_page_message">As a checker, the CovPassCheck app only shows you if the Digital COVID Certificate is valid and the name and date of birth of the certificate holder. Check this information against an ID document (e.g. a national ID card or passport). An active internet connection is not required when checking.</string>
+	<string name="validation_second_onboarding_page_message">As a checker, the CovidCertificateValidator app only shows you if the Digital COVID Certificate is valid and the name and date of birth of the certificate holder. Check this information against an ID document (e.g. a national ID card or passport). An active internet connection is not required when checking.</string>
 	<string name="validation_fourth_onboarding_page_title">Data protection and security</string>
 	<string name="validation_fourth_onboarding_first_list_item">It is only lawful to check other people’s QR codes and extract data from Digital COVID Certificates in legally specified situations.</string>
 	<string name="validation_fourth_onboarding_second_list_item">Saving, forwarding or using this data for other purposes is unlawful.</string>
@@ -34,7 +34,7 @@
 	<string name="error_connect_internet_for_scan_button_settings">Settings</string>
 	<string name="error_connect_internet_for_scan_button_ok">OK</string>
 	<string name="dialog_start_screen_title">New update available</string>
-	<string name="dialog_start_screen_message">Would you like to update the CovPassCheck app now?</string>
+	<string name="dialog_start_screen_message">Would you like to update the CovidCertificateValidator app now?</string>
 	<string name="dialog_start_screen_button_later">Not now</string>
 	<string name="dialog_start_screen_button_update">Update</string>
 	<string name="accessibility_update_info_announce">The view \"New features\" has been opened</string>
@@ -50,7 +50,7 @@
 	<string name="accessibility_scan_result_closing_announce">The view \"Verification result“ has been closed</string>
 	<string name="validation_start_screen_scan_action_button_title">Scan certificate</string>
 	<string name="validation_start_screen_offline_modus_title">Offline mode</string>
-	<string name="validation_start_screen_offline_modus_message">Keep your CovPassCheck app updated in order to check certificates offline. To do this, connect to the internet from time to time.</string>
+	<string name="validation_start_screen_offline_modus_message">Keep your CovidCertificateValidator app updated in order to check certificates offline. To do this, connect to the internet from time to time.</string>
 	<string name="validation_start_screen_offline_modus_note_latest_version">Offline mode available</string>
 	<string name="validation_start_screen_offline_modus_note_old_version">Internet connection needed</string>
 	<string name="validation_start_screen_offline_modus_note_update">Most recent update</string>
@@ -60,13 +60,13 @@
 
 	<!-- SECTION: popup: Check vaccination -->
 	<string name="scan_dialog_camera_access_title">Camera access needed</string>
-	<string name="scan_dialog_camera_access_message">The CovPassCheck app uses your smartphone’s camera to scan QR codes.\n\nYour camera is only ever accessed while you use the app and only with your permission. You have the option to change this permission in your smartphone’s settings at any time.</string>
+	<string name="scan_dialog_camera_access_message">The CovidCertificateValidator app uses your smartphone’s camera to scan QR codes.\n\nYour camera is only ever accessed while you use the app and only with your permission. You have the option to change this permission in your smartphone’s settings at any time.</string>
 	<string name="accessibility_scan_dialog_camera_access_announce">The view \"Camera access needed\" has been opened</string>
 	<string name="scan_dialog_camera_access_action_button">Allow access</string>
 	<string name="accessibility_scan_dialog_camera_access_label_close">Close</string>
 	<string name="accessibility_scan_camera_announce">Camera has been opened</string>
 	<string name="accessibility_scan_camera_closing_announce">Camera has been closed</string>
-	<string name="error_camera_access_title">The CovPassCheck app wants to access your camera.</string>
+	<string name="error_camera_access_title">The CovidCertificateValidator app wants to access your camera.</string>
 	<string name="error_camera_access_message">Allow access to scan QR codes.</string>
 	<string name="error_camera_access_button_do_not_allow">Do not allow</string>
 	<string name="error_camera_access_button_allow">Allow</string>
@@ -84,7 +84,7 @@
 	<string name="technical_validation_check_popup_unsuccessful_certificate_signature_subheading">Invalid signature</string>
 	<string name="technical_validation_check_popup_unsuccessful_certificate_signature_subline">The certificate was issued by an unauthorized organization, or does not belong to the EU Digital Covid Certificate network.</string>
 	<string name="technical_validation_check_popup_unsuccessful_certificate_qrreadibility_subheading">QR code unreadable</string>
-	<string name="technical_validation_check_popup_unsuccessful_certificate_qrreadibility_subline">Unable to read the QR code. Please update the CovPassCheck App, if the problem is recurring.</string>
+	<string name="technical_validation_check_popup_unsuccessful_certificate_qrreadibility_subline">Unable to read the QR code. Please update the CovidCertificateValidator App, if the problem is recurring.</string>
 	<string name="technical_validation_check_popup_valid_vaccination_button_title">Scan another certificate</string>
 	<string name="functional_validation_check_popup_unsuccessful_certificate_title">Certificate does not fulfil all conditions</string>
 	<string name="functional_validation_check_popup_unsuccessful_certificate_subline">The checked person can see the reason in their CovPass App. The most common reasons:</string>
@@ -121,12 +121,12 @@
 	<!-- SECTION: app information -->
 	<string name="accessibility_app_information_label_back">Back to the start screen</string>
 	<string name="app_information_title">Information</string>
-	<string name="app_information_message">Here you can find all legal information and answers to the most frequent questions asked about the CovPassCheck app.</string>
+	<string name="app_information_message">Here you can find all legal information and answers to the most frequent questions asked about the CovidCertificateValidator app.</string>
 	<string name="app_information_title_contact">Contact</string>
 	<string name="accessibility_app_information_title_contact_announce">Contact has been opened</string>
-	<string name="app_information_message_contact_support">Contact for technical questions about the CovPassCheck app</string>
+	<string name="app_information_message_contact_support">Contact for technical questions about the CovidCertificateValidator app</string>
 	<string name="app_information_message_contact_support_phone">Telephone: #0800–4747–002::tel:0800–4747–002#</string>
-	<string name="app_information_message_contact_support_mail">E-Mail: #support\@covpasscheck-app.de::mailto:support\@covpasscheck-app.de#</string>
+	<string name="app_information_message_contact_support_mail">E-Mail: #support\@CovidCertificateValidator-app.de::mailto:support\@CovidCertificateValidator-app.de#</string>
 	<string name="app_information_message_contact_info">Contact for other questions</string>
 	<string name="app_information_message_contact_info_mail">E-Mail: #info\@covpass-app.de::mailto:info\@covpass-app.de#</string>
 	<string name="accessibility_app_information_contact_label_back">Back</string>
